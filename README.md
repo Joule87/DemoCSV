@@ -1,7 +1,7 @@
 ## DemoCSV
 
 ## Description
-Demonstration that strictly meets the requested requirements: [a link](https://github.com/Joule87/Media/blob/master/take-home-01.pdf)
+Demonstration that strictly meets the requested [requirements](https://github.com/Joule87/Media/blob/master/take-home-01.pdf)
 
 ## Technologies used
 The app is written in Swift 5, with Xcode 14.2, UIKit as the UI framework, unit testing is done with the native tools provided by XCode
