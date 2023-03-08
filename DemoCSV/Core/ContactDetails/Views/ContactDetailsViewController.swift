@@ -18,13 +18,11 @@ class ContactDetailsViewController: UIViewController {
         didSet {
             mainContainerView.layer.borderWidth = 0.1
             mainContainerView.layer.borderColor = UIColor.black.cgColor
-            mainContainerView.layer.cornerRadius = 10
+            mainContainerView.layer.cornerRadius = 5
             mainContainerView.layer.shadowColor = UIColor.black.cgColor
             mainContainerView.layer.shadowOpacity = 0.5
-            mainContainerView.layer.shadowOffset = CGSize(width: 5, height: 5)
+            mainContainerView.layer.shadowOffset = CGSize(width: 2, height: 2)
             mainContainerView.layer.shadowRadius = 4
-            mainContainerView.layer.shadowPath = UIBezierPath(rect: mainContainerView.bounds).cgPath
-           
         }
     }
     
